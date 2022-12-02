@@ -1,17 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Article from './components/Article';
+import {Article} from './components';
 
 function App() {
   return (
     <div>
-      <Article
-        title={'タイトル1'}
-        content='今日のトピックスは props のデータの受け渡しについて。'
-        order={3}
-        isPublished={true}
-        // authorName={authorName}
-        // updateAt={now}
+      <Article 
+        title={'import と export'}
+        content={'今日のトピックスです。名前つきimport・export、default import・exportの実装ができたでしょうか？'}
       />
     </div>
     // <div className="App">
