@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import {Article} from './components';
+import {Article, TextInput, Counter, BadCounter, ToggleButton} from './components';
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
         title={'import と export'}
         content={'今日のトピックスです。名前つきimport・export、default import・exportの実装ができたでしょうか？'}
       />
+      <TextInput />
+      <Counter />
+      <BadCounter />
+      <ToggleButton />
     </div>
     // <div className="App">
     //   <header className="App-header">
